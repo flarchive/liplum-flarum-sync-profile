@@ -1,0 +1,28 @@
+liplum-sync-profile:
+  admin:
+    syncUsersEndpoint:
+      label: Sync Multiple Users Endpoint URL
+      help: >
+        A fully qualified URL. Left empty for disable hourly auto-sync.
+        The request should return a JSON:API payload that will be used to sync users by email in Flarum.
+    syncUserEndpoint:
+      label: Sync Single User Endpoint URL
+      help: >
+        A fully qualified URL.
+        The request should return a JSON:API payload that will be used to sync a user by email in Flarum.
+    authorizationHeader:
+      label: Authorization Header
+      help: |
+        The Authorization header to send with sync request.
+
+        For security issue, you should set this in your "config.php" like below:
+
+        <code>
+        "liplum-sync-profile" => array(
+            "authorizationHeader" => "access_token_secret"
+        )
+        </code>
+    webhookToken:
+      label: Webhook Token
+      help: |
+        The token of webhook: "/api/sync-profile/webhook/<api>" for subscription of user profile changes.
