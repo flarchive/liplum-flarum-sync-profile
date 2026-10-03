@@ -2,13 +2,15 @@
 
 > **Read-only archive of released versions of liplum/flarum-sync-profile.** Not for installation: use [Packagist](https://packagist.org/packages/liplum/flarum-sync-profile) or the [upstream repository](https://github.com/liplum/flarum-sync-profile).
 
-**0** versions archived · Latest: [`v0.2.1`](https://github.com/flarchive/liplum-flarum-sync-profile/tree/archive/v0.2.1) · License: `MIT` · Flarum: `^1.2`
+**3** versions archived · Latest: [`v0.2.1`](https://github.com/flarchive/liplum-flarum-sync-profile/tree/archive/v0.2.1) · License: `MIT` · Flarum: `^1.2`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.2` | 2024-12-07 | `^1.2` | [Browse](https://github.com/flarchive/liplum-flarum-sync-profile/tree/archive/v0.2) |
+| `v0.1` | 2024-12-07 | `^1.2` | [Browse](https://github.com/flarchive/liplum-flarum-sync-profile/tree/archive/v0.1) |
+| `v0.2.1` | 2025-03-16 | `^1.2` | [Browse](https://github.com/flarchive/liplum-flarum-sync-profile/tree/archive/v0.2.1) |
 
 Catalog entry: [packages/liplum-flarum-sync-profile.json](https://github.com/flarchive/archive-index/blob/main/packages/liplum-flarum-sync-profile.json)
 
